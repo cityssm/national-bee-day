@@ -1,4 +1,4 @@
-# National Bee Day Door Entry 🐝
+# National Bee Day Door Competition Entry 🐝
 
 ![Screenshot](screenshot.png)
 
@@ -13,3 +13,8 @@ Script to generate and animate the bees.
 Recolored to look like honeycomb.
 
 [Bee Sprite by Game Art Guppy](https://www.gameartguppy.com/shop/bee/)
+
+## Related
+
+[Canada Day Fireworks](https://github.com/cityssm/canada-day-fireworks)<br />
+A fireworks show for the 2023 Canada Day door competition!
