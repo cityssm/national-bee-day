@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>National Bee Day 2024</title>
 		<style>
 			html,
       body {
@@ -13,7 +14,6 @@
       }
 
       #honeycomb {
-        position: relative;
         width: 100%;
         height: 100%;
         background: center
@@ -26,10 +26,10 @@
 		<div id="honeycomb"></div>
 		<script type='text/javascript' src='bee.js'></script>
 		<script type='text/javascript'>
-			// default fruit fly bug:
 			new BugController({
-				minBugs: 10,
-				maxBugs: 30,
+				minDelay: 100,
+				minBugs: 20,
+				maxBugs: 50,
 				zoom: 8,
 				canDie: false
 			});
