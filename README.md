@@ -6,9 +6,9 @@
 
 ## About National Honey Bee Day
 
-> National Honey Bee Day (formerly National Honey Bee Awareness Day) is an awareness day when beekeepers, beekeeping clubs and associations, and honey bee enthusiasts from across the United States celebrate honey bees and recognize their contribution to humans' everyday lives as a means of protecting this critical species. National Honey Bee Day also pays homage to beekeepers, whose labors ensure there are well-managed, healthy bees to pollinate crops. - [Wikipedia](https://en.wikipedia.org/wiki/National_Honey_Bee_Day)
+> **National Honey Bee Day** (formerly National Honey Bee Awareness Day) is an awareness day when beekeepers, beekeeping clubs and associations, and honey bee enthusiasts from across the United States celebrate honey bees and recognize their contribution to humans' everyday lives as a means of protecting this critical species. National Honey Bee Day also pays homage to beekeepers, whose labors ensure there are well-managed, healthy bees to pollinate crops. - [Wikipedia](https://en.wikipedia.org/wiki/National_Honey_Bee_Day)
 
-National Honey Dee Day 2024 takes place Saturday, August 17th, 2024.
+National Honey Dee Day 2024 takes place **Saturday, August 17th, 2024**.
 
 ## Credits
 
