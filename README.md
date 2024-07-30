@@ -2,7 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-**Can you find the queen bee?**
+**Can you find the queen bee?** 🔍🐝
 
 **[See it in action](https://cityssm.github.io/national-bee-day)**
 
