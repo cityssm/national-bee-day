@@ -41,6 +41,7 @@ var BugDispatch = {
     bugHeight: 140,
     num_frames: 5,
     zoom: 10, // random zoom variation from 1 to 10 - 10 being full size.
+    zoomMax: 10,
     canFly: true,
     canDie: true,
     numDeathTypes: 3,
@@ -394,7 +395,7 @@ var Bug = {
     this.large_turn_counter = 0;
     this.fly_counter = 0;
     this.toggle_stationary_counter = Math.random() * 50;
-    this.zoom = this.random(this.options.zoom, 10) / 10;
+    this.zoom = this.random(this.options.zoom, this.options.zoomMax) / 10;
 
     this.stationary = false;
     this.bug = null;
