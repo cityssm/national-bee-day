@@ -2,6 +2,8 @@
 
 ![Screenshot](screenshot.png)
 
+**Can you find the queen bee?**
+
 **[See it in action](https://cityssm.github.io/national-bee-day)**
 
 ## About National Honey Bee Day
