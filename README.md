@@ -1,6 +1,6 @@
 # National Honey Bee Day Door Competition Entry 🐝
 
-![Screenshot](screenshot.png)
+![Demo](demo.gif)
 
 **Can you find the queen bee?** 🔍🐝
 
