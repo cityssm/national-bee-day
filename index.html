@@ -32,10 +32,16 @@
     <div id="honeycomb"></div>
     <script type="text/javascript" src="bee.js"></script>
     <script type="text/javascript">
+      const beeCount = Math.floor(
+        (window.innerHeight / BugDispatch.options.bugHeight) *
+          (window.innerWidth / BugDispatch.options.bugWidth) *
+          3
+      );
+
       new BugController({
         minDelay: 100,
-        minBugs: 250,
-        maxBugs: 260,
+        minBugs: beeCount,
+        maxBugs: beeCount + 10,
         zoom: 5,
         zoomMax: 6,
         canDie: false,
