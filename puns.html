@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: #87ceeb;
+      }
+
+      div {
+        display: table;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+      }
+
+      #pun {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 50px;
+
+        font-family: "Barlow", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 8vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span id="pun"></span>
+    </div>
+    <script>
+      const puns = [
+        "Bee-ware of phishing scams!",
+        "Don't let malware sting you!",
+        "Hive your passwords securely.",
+        // "Buzz off, hackers!",
+        "Encrypt your data to keep it bee-safe.",
+        "Bee vigilant against cyber threats.",
+        // "Honey, don't forget to update your antivirus software.",
+        "Bee-lieve in strong cybersecurity practices.",
+        "Don't let your guard down, or you'll get swarmed by viruses.",
+        "Bee proactive about your online security.",
+        "Bee sure to back up your data regularly.",
+        "Hive a strong firewall to keep intruders out.",
+        // "Buzz through your security checklist.",
+        "Don't let your security protocols bee-lax.",
+        // "Bee cautious of honey traps online.",
+        // "Hive your sensitive information encrypted.",
+        "Bee on the lookout for suspicious activity.",
+        // "Don't get caught in a web of deceit.",
+        "Bee smart, use two-factor authentication.",
+        "Hive a plan for cyber emergencies.",
+      ];
+
+      let punIndex = -1;
+
+      function updatePun() {
+        punIndex += 1;
+
+        if (punIndex >= puns.length) {
+          punIndex = 0;
+        }
+
+        document.querySelector("#pun").textContent = puns[punIndex];
+      }
+
+      updatePun();
+
+      setInterval(updatePun, 8 * 1000);
+    </script>
+  </body>
+</html>
