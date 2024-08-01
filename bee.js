@@ -47,7 +47,7 @@ var BugDispatch = {
     numDeathTypes: 3,
     monitorMouseMovement: false,
     eventDistanceToBug: 40,
-    minTimeBetweenMultipy: 1000,
+    minTimeBetweenMultiply: 1000,
     mouseOver: "random", // can be 'fly', 'flyoff' (if the bug can fly), die', 'multiply', 'nothing' or 'random'
   },
 
@@ -333,7 +333,7 @@ var BugDispatch = {
           // add event to this bug:
           that.add_events_to_bug(b);
           that.multiplyDelay = false;
-        }, this.options.minTimeBetweenMultipy);
+        }, this.options.minTimeBetweenMultiply);
       }
     }
   },
