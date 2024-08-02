@@ -9,7 +9,7 @@ The number of bees is based on the size of your browser window when the page is 
 If you change the size of your browser window, refresh the page for more or less bees.
 
 **[Bee cyber safe!](https://cityssm.github.io/national-bee-day/puns.html)**<br />
-A slideshow of bee-related puns about cybersecurity.
+A slideshow of bee-related puns about cybersecurity, because being safe online is the _bee's knees_.
 Thanks to the [SectorFlow](https://sectorflow.ai/) AI platform for getting us started!
 
 ## About National Honey Bee Day
