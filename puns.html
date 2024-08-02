@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -10,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,800;1,800&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -40,6 +41,10 @@
         font-weight: 800;
         font-style: normal;
         font-size: 8vw;
+        color: white;
+
+        -webkit-text-stroke-width: 0.2vw;
+        -webkit-text-stroke-color: black;
       }
     </style>
   </head>
@@ -47,31 +52,30 @@
     <div>
       <span id="pun"></span>
     </div>
+    <script type="text/javascript" src="bee.js"></script>
     <script>
       const puns = [
-        "Bee-ware of phishing scams!",
-        "Don't let malware sting you!",
-        "Hive your passwords securely.",
-        // "Buzz off, hackers!",
-        "Encrypt your data to keep it bee-safe.",
-        "Bee vigilant against cyber threats.",
-        // "Honey, don't forget to update your antivirus software.",
-        "Bee-lieve in strong cybersecurity practices.",
-        "Don't let your guard down, or you'll get swarmed by viruses.",
-        "Bee proactive about your online security.",
-        "Bee sure to back up your data regularly.",
-        "Hive a strong firewall to keep intruders out.",
-        // "Buzz through your security checklist.",
-        "Don't let your security protocols bee-lax.",
-        // "Bee cautious of honey traps online.",
-        // "Hive your sensitive information encrypted.",
-        "Bee on the lookout for suspicious activity.",
-        // "Don't get caught in a web of deceit.",
-        "Bee smart, use two-factor authentication.",
-        "Hive a plan for cyber emergencies.",
+        "<i>Bee</i> cyber safe!",
+        "If you don't know the sender, <em>bee</em>-ware of the attachments!",
+        "Don't let your guard down, or you'll get <em>swarmed</em> by viruses.",
+        "<em>Bee</em> smart! Use two-factor authentication.",
+        "If it's too good to <em>bee</em> true, it probably is a scam.",
+        "You can't <em>bee</em> too careful when it comes to cybersecurity.",
+        "Don't get <em>stung</em> by a phishing scam.",
+        "A good cybersecurity strategy is the <em>bee's knees</em> in protecting your information!",
+        "<em>Buzzing</em> around sketchy websites is a risky business!",
+        'Don\'t let malware be the "<em>bee</em> in your bonnet". Install antivirus software!',
+        "Don't <em>bee</em> complacent about security.",
+        "<em>Bee</em>-lieve in strong passwords!",
+        "If your system <em>buzzing</em> with alerts, it's time for a cybersecurity check-up!",
+        "Make sure your passwords are as strong as a <em>queen bee's hive</em>!",
       ];
 
+      const displayMillis = 10 * 1000;
       let punIndex = -1;
+      let timeout;
+
+      const punElement = document.querySelector("#pun");
 
       function updatePun() {
         punIndex += 1;
@@ -80,12 +84,28 @@
           punIndex = 0;
         }
 
-        document.querySelector("#pun").textContent = puns[punIndex];
+        punElement.innerHTML = puns[punIndex];
+
+        timeout = setTimeout(updatePun, displayMillis);
       }
 
       updatePun();
 
-      setInterval(updatePun, 8 * 1000);
+      punElement.addEventListener("click", () => {
+        try {
+          window.clearTimeout(timeout);
+        } catch {}
+        updatePun();
+      });
+
+      new BugController({
+        minDelay: 100,
+        minBugs: 3,
+        maxBugs: 5,
+        zoom: 7,
+        zoomMax: 8,
+        canDie: false,
+      });
     </script>
   </body>
 </html>
