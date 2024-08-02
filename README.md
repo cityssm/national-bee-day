@@ -4,7 +4,13 @@
 
 **Can you find the queen bee?** 🔍🐝
 
-**[See it in action](https://cityssm.github.io/national-bee-day)**
+**[See the hive in action](https://cityssm.github.io/national-bee-day)**<br />
+The number of bees is based on the size of your browser window when the page is loaded.
+If you change the size of your browser window, refresh the page for more or less bees.
+
+**[Bee cyber safe!](https://cityssm.github.io/national-bee-day/puns.html)**<br />
+A slideshow of bee-related puns about cybersecurity.
+Thanks to the [SectorFlow](https://sectorflow.ai/) AI platform for getting us started!
 
 ## About National Honey Bee Day
 
@@ -20,7 +26,8 @@ Script to generate and animate the bees.
 [Honeycomb background by Thomas Tortorini](https://codepen.io/mr21/pen/WgyYWM)<br />
 Recolored to look like honeycomb.
 
-[Bee Sprite by Game Art Guppy](https://www.gameartguppy.com/shop/bee/)
+[Bee Sprite by Game Art Guppy](https://www.gameartguppy.com/shop/bee/)<br />
+High quality, free artwork for indie game developers (and workplace office door decorators).
 
 ## Related
 
