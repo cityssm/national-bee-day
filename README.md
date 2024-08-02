@@ -25,6 +25,7 @@ Script to generate and animate the bees.
 
 [Honeycomb background by Thomas Tortorini](https://codepen.io/mr21/pen/WgyYWM)<br />
 Recolored to look like honeycomb.
+Check out [his other work on GitHub](https://github.com/mr21).
 
 [Bee Sprite by Game Art Guppy](https://www.gameartguppy.com/shop/bee/)<br />
 High quality, free artwork for indie game developers (and workplace office door decorators).
