@@ -43,7 +43,7 @@ var BugDispatch = {
     zoom: 10, // random zoom variation from 1 to 10 - 10 being full size.
     zoomMax: 10,
     canFly: true,
-    canDie: true,
+    canDie: false,
     numDeathTypes: 3,
     monitorMouseMovement: false,
     eventDistanceToBug: 40,
